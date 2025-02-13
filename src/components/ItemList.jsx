@@ -11,7 +11,7 @@ const ItemList = ({ title, items }) => {
 
         <div className='item-list__container'>
             {
-                Array(items).fill().map( (currentValue, index) => <SingleItem /> )
+                Array(items).fill().map( (currentValue, index) => <SingleItem key={`${title}-${index}`}/> )
             }
         </div>
     </div>
