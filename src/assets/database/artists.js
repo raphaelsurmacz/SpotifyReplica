@@ -1,3 +1,5 @@
+// Artists Obj
+
 export const artistArray = [
   {
     id: 1,

@@ -1,3 +1,5 @@
+// Artist and song item
+
 import React from 'react' 
 import SingleItem from './SingleItem'  
 

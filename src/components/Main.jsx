@@ -1,3 +1,5 @@
+// Main
+
 import React from 'react'
 import ItemList from './ItemList';
 import { artistArray } from '../assets/database/artists';
