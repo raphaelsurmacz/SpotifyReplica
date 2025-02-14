@@ -8,20 +8,20 @@ import Song from "./pages/Song";
 
 
 const App = () => {
-  return (
-    <BrowserRouter>
-      <Header />
+    return (
+        <BrowserRouter>
+            <Header />
 
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/artists' element={<Artists />} />
-      <Route path='/artist/:id' element={<Artist />} />
-      <Route path='/songs' element={<Songs />} />
-      <Route path='/song/:id' element={<Song />} />
-    </Routes>
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/artists' element={<Artists />} />
+                <Route path='/artist/:id' element={<Artist />} />
+                <Route path='/songs' element={<Songs />} />
+                <Route path='/song/:id' element={<Song />} />
+            </Routes>
 
-    </BrowserRouter>
-  );
+        </BrowserRouter>
+    );
 };
 
 export default App
